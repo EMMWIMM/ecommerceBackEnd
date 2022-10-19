@@ -11,5 +11,5 @@ const sequelize = process.env.JAWSDB_URL
         decimalNumbers: true,
       },
     });
-
+console.log("this is in config/connection.js: user:",process.env.DB_USER);
 module.exports = sequelize;
